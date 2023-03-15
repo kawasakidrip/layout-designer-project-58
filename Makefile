@@ -1,4 +1,3 @@
-
 install:
 	npm install
 
@@ -9,3 +8,7 @@ lint:
 
 deploy:
 	npx surge ./src/
+git: 
+	git add .
+	git commit -m 'First section'
+	git push
